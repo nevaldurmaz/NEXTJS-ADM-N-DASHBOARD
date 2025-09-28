@@ -1,3 +1,7 @@
+
+🚀 Canlı Demo
+![admin-dashboard](https://github.com/user-attachments/assets/59ce7a96-ebcd-4bb1-a2da-453f396bcc3f)
+
 # 🏪 E-Ticaret Admin Paneli
 
 Modern ve kullanıcı dostu bir e-ticaret yönetim paneli. Mağaza sahiplerinin ürün, sipariş ve müşteri yönetimini kolaylaştırmak için geliştirilmiştir.
@@ -82,6 +86,4 @@ Endpoint	Method	Açıklama
 /users	GET, DELETE	Kullanıcı yönetimi
 /orders	GET, POST	Sipariş yönetimi
 
-🚀 Canlı Demo
-![admin-dashboard](https://github.com/user-attachments/assets/daf94801-190b-4019-a746-a2198d3da7ef)
 
