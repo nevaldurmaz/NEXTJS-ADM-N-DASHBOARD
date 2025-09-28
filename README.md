@@ -76,6 +76,8 @@ npm run dev
 npm run server
 
 🎨 Demo
+![admin-dashboard](https://github.com/user-attachments/assets/577a5e58-2195-4479-b311-2ef45e74620f)
+
 
 💡 Kullanım Senaryoları
 🏪 E-ticaret mağaza yönetimi
@@ -94,5 +96,4 @@ Endpoint	Method	Açıklama
 /users	GET, DELETE	Kullanıcı yönetimi
 /orders	GET, POST	Sipariş yönetimi
 
-```
-# NEXTJS-ADM-N-DASHBOARD
+
