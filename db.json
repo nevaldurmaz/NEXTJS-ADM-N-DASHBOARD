@@ -1,0 +1,528 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 15 Pro Max",
+      "category": "Electronics",
+      "price": 50000,
+      "stock": 25,
+      "description": "6.1 inç ekran, A15 Bionic çip, çift 12MP kamera sistemi",
+      "image_url": "https://picsum.photos/seed/1/500/500",
+      "rating": 4.8,
+      "reviews_count": 150,
+      "brand": "Apple"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "category": "Elektronik",
+      "price": 32000,
+      "stock": 30,
+      "description": "6.6 inç ekran, Snapdragon 8 Gen 2, üçlü 50MP kamera sistemi",
+      "image_url": "https://picsum.photos/seed/2/500/500",
+      "rating": 4.6,
+      "reviews_count": 85,
+      "brand": "Samsung"
+    },
+    {
+      "id": "5",
+      "name": "Adidas Ultraboost 22",
+      "category": "Ayakkabı",
+      "price": 4200,
+      "stock": 35,
+      "description": "Primeknit üst, Boost taban, maksimum enerji dönüşü",
+      "image_url": "https://picsum.photos/seed/5/500/500",
+      "rating": 4.8,
+      "reviews_count": 94,
+      "brand": "Adidas"
+    },
+    {
+      "id": "6",
+      "name": "Dyson V11 Elektrikli Süpürge",
+      "category": "Ev Aletleri",
+      "price": 15000,
+      "stock": 15,
+      "description": "Güçlü emiş, LCD ekran, 60 dakika çalışma süresi",
+      "image_url": "https://picsum.photos/seed/6/500/500",
+      "rating": 4.9,
+      "reviews_count": 45,
+      "brand": "Dyson"
+    },
+    {
+      "id": "7",
+      "name": "LG 65 inç 6K Smart TV",
+      "category": "Elektronik",
+      "price": 35000,
+      "stock": 20,
+      "description": "65 inç OLED ekran, webOS, Dolby Atmos ses",
+      "image_url": "https://picsum.photos/seed/7/500/500",
+      "rating": 4.7,
+      "reviews_count": 75,
+      "brand": "LG"
+    },
+    {
+      "id": "43ae",
+      "name": "Macbook M3",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 45000,
+      "stock": 15,
+      "description": "Apple M3 çip, 8 çekirdek CPU, 10 çekirdek GPU",
+      "image_url": "https://m.media-amazon.com/images/I/719C6bJv8jL.jpg",
+      "rating": 4.1,
+      "reviews_count": 67
+    },
+    {
+      "id": "2a68",
+      "name": "Piere Cardin Mont",
+      "brand": "Piere Cardin",
+      "category": "Giyim",
+      "price": 2500,
+      "stock": 6,
+      "description": "Kaliteli kumaş, şık tasarım, su geçirmez",
+      "image_url": "https://aydinli-pc.a-cdn.akinoncloud.com/products/2024/10/24/1082422/279c0af3-2f2e-41d9-8640-beb56d3eb1bc_size2724x3540_quality100_cropCenter.jpg",
+      "rating": 4.5,
+      "reviews_count": 11
+    },
+    {
+      "id": "3105",
+      "name": "Adidas Air Max 270",
+      "brand": "Adidas",
+      "category": "Ayakkabı",
+      "price": 3500,
+      "stock": 32,
+      "description": "Spor ve günlük kullanım için ideal ayakkabı",
+      "image_url": "https://picsum.photos/seed/3/700/500",
+      "rating": 4,
+      "reviews_count": 55
+    },
+    {
+      "id": "2ea9",
+      "name": "Adidas Air Max 273",
+      "brand": "Adidas",
+      "category": "Clothing",
+      "price": 3499.98,
+      "stock": 23,
+      "description": "jhkjgc",
+      "image_url": "https://picsum.photos/seed/5/500/500",
+      "rating": 3.5,
+      "reviews_count": 55
+    },
+    {
+      "id": "f06e",
+      "name": "Adidas Air Max 2703",
+      "brand": "Adidas",
+      "category": "Clothing",
+      "price": 3400,
+      "stock": 23,
+      "description": "sagdhn",
+      "image_url": "https://picsum.photos/seed/5/500/500",
+      "rating": 3.5,
+      "reviews_count": 34
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet.yilmaz@example.com",
+      "password": "hashed_password_1",
+      "address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "phone": "+90 555 123 4567",
+      "orders": [
+        {
+          "order_id": 1001,
+          "product_id": 1,
+          "quantity": 1,
+          "total_price": 45000,
+          "order_date": "2024-09-10"
+        },
+        {
+          "order_id": 1002,
+          "product_id": 4,
+          "quantity": 2,
+          "total_price": 7000,
+          "order_date": "2024-08-15"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Elif Kaya",
+      "email": "elif.kaya@example.com",
+      "password": "hashed_password_2",
+      "address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "phone": "+90 532 654 3210",
+      "orders": [
+        {
+          "order_id": 1003,
+          "product_id": 3,
+          "quantity": 1,
+          "total_price": 12500,
+          "order_date": "2024-07-22"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mehmet Demir",
+      "email": "mehmet.demir@example.com",
+      "password": "hashed_password_3",
+      "address": {
+        "street": "Mimar Sinan Bulv. No: 78",
+        "city": "Izmir",
+        "postal_code": "35000",
+        "country": "Turkey"
+      },
+      "phone": "+90 542 987 6543",
+      "orders": []
+    },
+    {
+      "id": "4",
+      "name": "Zeynep Aksoy",
+      "email": "zeynep.aksoy@example.com",
+      "password": "hashed_password_4",
+      "address": {
+        "street": "Bahçelievler Mah. Gül Sok. No: 12",
+        "city": "İzmir",
+        "postal_code": "35400",
+        "country": "Turkey"
+      },
+      "phone": "+90 535 789 1234",
+      "orders": [
+        {
+          "order_id": 1005,
+          "product_id": 2,
+          "quantity": 1,
+          "total_price": 32000,
+          "order_date": "2024-09-05"
+        },
+        {
+          "order_id": 1006,
+          "product_id": 6,
+          "quantity": 1,
+          "total_price": 15000,
+          "order_date": "2024-10-12"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Burak Yılmaz",
+      "email": "burak.yilmaz@example.com",
+      "password": "hashed_password_5",
+      "address": {
+        "street": "Cumhuriyet Cad. 56/3",
+        "city": "Bursa",
+        "postal_code": "16100",
+        "country": "Turkey"
+      },
+      "phone": "+90 544 321 8765",
+      "orders": []
+    },
+    {
+      "id": "6",
+      "name": "Ayşe Çelik",
+      "email": "ayse.celik@example.com",
+      "password": "hashed_password_6",
+      "address": {
+        "street": "Bağdat Cad. No: 153 D:7",
+        "city": "İstanbul",
+        "postal_code": "34728",
+        "country": "Turkey"
+      },
+      "phone": "+90 533 456 7890",
+      "orders": [
+        {
+          "order_id": 1007,
+          "product_id": 7,
+          "quantity": 1,
+          "total_price": 35000,
+          "order_date": "2024-08-18"
+        },
+        {
+          "order_id": 1008,
+          "product_id": 3,
+          "quantity": 2,
+          "total_price": 25000,
+          "order_date": "2024-09-30"
+        },
+        {
+          "order_id": 1009,
+          "product_id": 5,
+          "quantity": 1,
+          "total_price": 4200,
+          "order_date": "2024-10-05"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Emre Şahin",
+      "email": "emre.sahin@example.com",
+      "password": "hashed_password_7",
+      "address": {
+        "street": "Merkez Mah. Atatürk Cad. No: 42",
+        "city": "Antalya",
+        "postal_code": "07100",
+        "country": "Turkey"
+      },
+      "phone": "+90 536 897 2345",
+      "orders": [
+        {
+          "order_id": 1010,
+          "product_id": 2,
+          "quantity": 1,
+          "total_price": 32000,
+          "order_date": "2024-10-08"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Selin Özkan",
+      "email": "selin.ozkan@example.com",
+      "password": "hashed_password_8",
+      "address": {
+        "street": "Yeni Mah. Lale Sok. No: 23/5",
+        "city": "Eskişehir",
+        "postal_code": "26000",
+        "country": "Turkey"
+      },
+      "phone": "+90 538 765 4321",
+      "orders": [
+        {
+          "order_id": 1011,
+          "product_id": 6,
+          "quantity": 1,
+          "total_price": 15000,
+          "order_date": "2024-09-20"
+        },
+        {
+          "order_id": 1012,
+          "product_id": 1,
+          "quantity": 1,
+          "total_price": 45000,
+          "order_date": "2024-10-15"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Neval Durmaz",
+      "email": "nevaldurmaz@gmail.com",
+      "password": "hashed_password_9",
+      "address": {
+        "street": "Kent Orman Villaları",
+        "city": "Diyarbakır",
+        "postal_code": "21000",
+        "country": "Turkey"
+      },
+      "phone": "+90 535 666 8877",
+      "orders": [
+        {
+          "order_id": 1013,
+          "product_id": 3,
+          "quantity": 1,
+          "total_price": 12500,
+          "order_date": "2024-10-20"
+        },
+        {
+          "order_id": 1014,
+          "product_id": 5,
+          "quantity": 2,
+          "total_price": 8400,
+          "order_date": "2024-10-25"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1001,
+      "user_id": 1,
+      "order_date": "2024-09-10",
+      "status": "Kargoya Verildi",
+      "total_price": 45000,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Apple iPhone 14 Pro Max",
+          "quantity": 1,
+          "price": 45000
+        }
+      ],
+      "id": "2640"
+    },
+    {
+      "order_id": 1002,
+      "user_id": 1,
+      "order_date": "2024-09-15",
+      "status": "Teslim Edildi",
+      "total_price": 7000,
+      "shipping_address": {
+        "street": "Atatürk Cad. No: 15",
+        "city": "Istanbul",
+        "postal_code": "34000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 4,
+          "name": "Adidas Air Max 270",
+          "quantity": 2,
+          "price": 3500
+        }
+      ],
+      "id": "e9d8"
+    },
+    {
+      "order_id": 1003,
+      "user_id": 2,
+      "order_date": "2024-09-22",
+      "status": "İşleniyor",
+      "total_price": 12500,
+      "shipping_address": {
+        "street": "İstiklal Mah. 123. Sok. No: 45",
+        "city": "Ankara",
+        "postal_code": "06000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Sony WH-1000XM5 Kulaklık",
+          "quantity": 1,
+          "price": 12500
+        }
+      ],
+      "id": "a863"
+    },
+    {
+      "order_id": 1004,
+      "user_id": 4,
+      "order_date": "2024-10-01",
+      "status": "Teslim Edildi",
+      "total_price": 4200,
+      "shipping_address": {
+        "street": "Kordonboyu Mah. Sahil Yolu Cad. No: 22",
+        "city": "Antalya",
+        "postal_code": "07000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 5,
+          "name": "Adidas Ultraboost 22",
+          "quantity": 1,
+          "price": 4200
+        }
+      ],
+      "id": "c3a7"
+    },
+    {
+      "id": "aebb",
+      "order_id": 1005,
+      "user_id": 8,
+      "order_date": "2024-10-26",
+      "status": "İşleniyor",
+      "total_price": 15000,
+      "shipping_address": {
+        "street": "Yeni Mah. Lale Sok. No: 23/5",
+        "city": "Eskişehir",
+        "postal_code": "26000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 6,
+          "name": "Dyson V11 Elektrikli Süpürge",
+          "quantity": 1,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": "3254",
+      "order_id": 1006,
+      "user_id": 9,
+      "order_date": "2024-10-26",
+      "status": "Kargoya Verildi",
+      "total_price": 15000,
+      "shipping_address": {
+        "street": "Kent Orman Villaları",
+        "city": "Diyarbakır",
+        "postal_code": "21000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 6,
+          "name": "Dyson V11 Elektrikli Süpürge",
+          "quantity": 1,
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": "e179",
+      "order_id": 1007,
+      "user_id": 9,
+      "order_date": "2025-09-28",
+      "status": "Delivered",
+      "total_price": 50000,
+      "shipping_address": {
+        "street": "Kent Orman Villaları",
+        "city": "Diyarbakır",
+        "postal_code": "21000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Apple iPhone 15 Pro Max",
+          "quantity": 1,
+          "price": 50000
+        }
+      ]
+    },
+    {
+      "id": "5012",
+      "order_id": 1008,
+      "user_id": 9,
+      "order_date": "2025-09-28",
+      "status": "Shipped",
+      "total_price": 35000,
+      "shipping_address": {
+        "street": "Kent Orman Villaları",
+        "city": "Diyarbakır",
+        "postal_code": "21000",
+        "country": "Turkey"
+      },
+      "items": [
+        {
+          "product_id": 7,
+          "name": "LG 65 inç 6K Smart TV",
+          "quantity": 1,
+          "price": 35000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "/(pages)/page": "app/(pages)/page.js",
+  "/(pages)/orders/page": "app/(pages)/orders/page.js",
+  "/(pages)/products/page": "app/(pages)/products/page.js",
+  "/(pages)/users/page": "app/(pages)/users/page.js",
+  "/(pages)/products/[...slug]/page": "app/(pages)/products/[...slug]/page.js"
+}

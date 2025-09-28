@@ -1,0 +1,17 @@
+{
+  "node": {
+    "40890ddf771db78abae3ef9de9fb1b2a4032b04379": {
+      "workers": {
+        "app/(pages)/products/[...slug]/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fnevaldurmaz%2FDesktop%2Fadmin-dashboard%2Fsrc%2Fapp%2F(pages)%2Fproducts%2F%5B...slug%5D%2Fpage.tsx%22%2C%5B%7B%22id%22%3A%2240890ddf771db78abae3ef9de9fb1b2a4032b04379%22%2C%22exportedName%22%3A%22%24%24RSC_SERVER_ACTION_0%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(pages)/products/[...slug]/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "f3A9hUHeevg0BaBGL4iY/CfVDw7nMjx6+IKsLSEvEwA="
+}
